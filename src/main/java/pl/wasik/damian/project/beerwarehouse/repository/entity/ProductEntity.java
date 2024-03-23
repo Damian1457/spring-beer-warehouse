@@ -72,16 +72,5 @@ public class ProductEntity {
     public void setPrice(double price) {
         this.price = price;
     }
-
-    @Override
-    public String toString() {
-        return "ProductEntity{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", capacity=" + capacity +
-                ", description='" + description + '\'' +
-                ", stock=" + stock +
-                ", price=" + price +
-                '}';
-    }
+    
 }
